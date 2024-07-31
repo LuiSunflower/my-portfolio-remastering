@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remastering's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/R.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                <span>Ede</span>Remastering
+            </a>
+
+            <ul>
+                <li><a href="#home" class="nav-link" id="home-link">Home</a></li>
+                <li><a href="#about" class="nav-link" id="about-link">About Me</a></li>
+                <li><a href="#projects" class="nav-link" id="projects-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link" id="contact-link">Contact</a></li>
+            </ul>
+        </nav> 
+    </header>
+    
+    <section id="home">
+        <div class="card-me">
+            <img src="img/remastering-me.jpg" alt="Remastering">
+            <div class="card-content">
+                <h1>Hello, I'm Remastering!</h1>
+                <p>A passionate web developer creating</p>
+                <p> elegant and efficient solutions.</p>
+                <br>
+                <p>Studying Analysis and Development </p>
+                <p>at SENA with 1 year of experience.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="skill">
+            <h3>HTML</h3>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 90%;">90%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>CSS</h3>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 85%;">85%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>Java</h3>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 75%;">75%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>C++</h3>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 70%;">70%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>Bootstrap</h3>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 85%;">85%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>PHP</h3>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 80%;">80%</div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card-projects">
+            <a href="https://remastering-sounds.netlify.app/" target="_blank" class="card">
+                <img src="img/remastering-sounds.png" alt="Remastering sounds Project">
+                <h3>Remastering sounds</h3>
+                <p>Static page: headphones.</p>
+            </a>
+            <a href="https://remastering-article.netlify.app/" target="_blank" class="card">
+                <img src="img/article.png" alt="Article project">
+                <h3>Article: wonderful touches</h3>
+                <p>Tips to your room.</p>
+            </a>
+            <a href="https://faqs-remastering.netlify.app/" target="_blank" class="card">
+                <img src="img/faqs.png" alt="FAQs project">
+                <h3>FAQs</h3>
+                <p>Questions: Frontend Mentor.</p>
+            </a>
+            <a href="https://socia-links-profile-remastering.netlify.app/" target="_blank" class="card">
+                <img src="img/social-links-profile.png" alt="Social links profile project">
+                <h3>Social links profile</h3>
+                <p>Profile with social links.</p>
+            </a>
+        </div>
+    </section>
+    
+    
+    <section id="contact">
+        <h2>Contact me</h2>
+    
+            <div class="contact-form">
+             
+                <form action="your-backend-endpoint" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="3" required></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+        
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Remastering. All rights reserved.</p>
+    </footer>
+</body>
+</html>
